@@ -1,5 +1,16 @@
 ul {
     list-style-type: none;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+li {
+    float: left;
+}
+
+img {
+    margin-right: 30px;
 }
 
 .grid {
@@ -9,9 +20,19 @@ ul {
 
 .header {
     display:inline;
-    
+    position: absolute;
+    right: 0px;
+    justify-content: center;   
 }
 
+#websites {
+    width: 500px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    text-align: center;
+}
 #logo {
     height:50%;
     width:50%;
@@ -29,5 +50,23 @@ ul {
 #content {
     display: block;
     justify-items: center;
+}
 
+input[type=text] {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2px;
+    height: 40px;
+    width: 500px;
+}
+
+input[type=text]::-webkit-input-placeholder {
+    font-size: 30px;
+    padding-left: 4px;
+    padding-top: 3px;
+}
+
+a:hover {
+    text-decoration: underline;
 }
